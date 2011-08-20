@@ -1,0 +1,123 @@
+body {
+	font-family: sans-serif;
+	font-size: 12pt;
+	background-color: #f4f4ff;
+	color: #607B8B;
+}
+
+h2	{ font-size: 14pt; padding-top: 2em;  text-decoration:underline; font-style: italic; }
+h3	{ font-size: 13pt; padding-top: 2em; }
+strong	{ font-style: normal; font-weight: bold; }
+hr	{ display:none }
+a       { color:blue; text-decoration:none; }
+a:hover { color:white; background: blue; text-decoration:none; }
+
+#odkaz_katalog		{ color: #607B8B; background: #f4f4ff; 	text-decoration:none; }
+#odkaz_katalog:hover 	{ color: #607B8B; background: #f4f4ff;	text-decoration:none; }
+
+#odkaz_cenik		{ color: #607B8B; background: #f4f4ff; 	text-decoration:none; }
+#odkaz_cenik:hover 	{ color: #f4f4ff; background: #607B8B;	text-decoration:none; }
+
+#odkaz_web		{ color: #607B8B; background: #f4f4ff; 	text-decoration:underline; }
+#odkaz_web:hover 	{ color: #607B8B; background: #f4f4ff;	text-decoration:none; }
+
+#kontejner {
+        width: 1000px;
+        height: 768px;
+	margin : auto;
+        padding-left: 24px;
+        background-image: url(obrazky/podklad.jpg);
+	background-color: #f4f4ff;
+        background-repeat: no-repeat;
+	background-position: top left;
+}
+
+#menu {
+	color: blue;
+        padding-top: 110px;
+	text-align: left;
+	font-style: italic;
+	font-weight: bold;
+	border: 1px;
+}
+
+#obsah {
+    width: 936px;
+    height: 600px;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+#obsah_vystavy {
+    width: 900px;
+    height: 600px;
+/*    margin-top: 20px;*/
+    padding-left: 40px;
+    background-image: url("obrazky/vystava.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+#obsah_pirat {
+    width: 936px;
+    height: 600px;
+    margin-top: 20px;
+    padding-left: 40px;
+    background-image: url(obrazky/pozadi_pirat.jpg);
+    background-color: #f4f4ff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#obsah_cepice1 {
+    width: 936px;
+    height: 600px;
+    margin-top: 20px;
+    padding-left: 40px;
+    background-image: url(obrazky/pozadi_cepice1.jpg);
+    background-color: #f4f4ff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#obsah_cepice2 {
+    width: 936px;
+    height: 600px;
+    margin-top: 20px;
+    padding-left: 40px;
+    background-image: url(obrazky/pozadi_cepice2.jpg);
+    background-color: #f4f4ff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#obsah_hlavni {
+    width: 500px;
+}
+
+#obsah_novinky {
+    width: 280px;
+    height: 500px;
+    padding: 20px;
+    padding-right: 50px;
+    margin: 10px;
+    position: static;
+    float: right;
+    color: #778899;
+}
+
+#katalog {
+    margin: 10px;
+    width: 200px;
+    float: left;
+}
+
+#patka	{ 
+    width: 1000px;
+    margin : auto;
+    text-align: center;
+    font-size: 10pt;
+    background-color: #f4f4ff;
+    color: #607B8B;
+}
